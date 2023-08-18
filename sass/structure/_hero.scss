@@ -1,29 +1,52 @@
+//          hero section
 .hero {
-  padding-top: 500px;
-  padding-bottom: 20px;
-  width: 100%;
-  height: 600px;
-  background-image: url(../../images/hero-img.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  padding-top: 30px;
 }
-.hero-but {
+
+//         hero photo
+
+.hero_photo_box {
+  margin: 0 auto 30px;
   display: flex;
-  width: auto;
-  height: auto;
-  margin: auto;
-  border-radius: 4px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 30px;
-  letter-spacing: 0.06em;
+  border: 5px solid green;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-image: url(../../images/main_photo.jpeg);
+  background-size: contain;
+}
+
+//                hero title
+.hero_info_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero_title {
+  margin-bottom: 30px;
+  color: #000;
   text-align: center;
-  background-color: var(--green-color);
-  color: white;
-  transition: color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
-    background-color: var(--focus-color);
-  }
+
+  font-size: 34px;
+  font-weight: 500;
+  letter-spacing: -0.68px;
+}
+.hero_text {
+  margin-bottom: 10px;
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+}
+.hero_list {
+  margin-bottom: 60px;
+}
+.hero_item {
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
 }

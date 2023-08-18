@@ -7,7 +7,6 @@
 
 .hero_photo_box {
   margin: 0 auto 30px;
-  display: flex;
   border: 5px solid green;
   width: 120px;
   height: 120px;
@@ -17,11 +16,7 @@
 }
 
 //                hero title
-.hero_info_box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+// 
 
 .hero_title {
   margin-bottom: 30px;

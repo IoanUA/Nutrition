@@ -196,6 +196,8 @@ button {
   width: 120px;
   height: 120px;
   border-radius: 50%;
+  background-image: url(../../images/Olga.jpg);
+  background-size: contain;
 }
 
 .hero_photo {

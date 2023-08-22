@@ -15,6 +15,9 @@
   background-image: url(../../images/main_photo.jpeg);
   background-size: contain;
   background-repeat: no-repeat;
+  @media screen and(min-width: 768px) {
+  margin: 0px;
+  }
 }
 // .hero_photo{
 //   border-radius: 50%;

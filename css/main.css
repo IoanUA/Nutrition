@@ -189,18 +189,6 @@ button {
   padding-top: 30px;
 }
 
-.hero_photo_box {
-  display: flex;
-  margin: 0 auto 30px;
-  border: 5px solid green;
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  background-image: url(../../images/main_photo.jpeg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
 .hero_title {
   margin-bottom: 30px;
   color: #000;

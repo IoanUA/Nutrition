@@ -274,41 +274,4 @@ button {
     text-align: start;
     font-size: 13px;
   }
-}
-
-.video_text {
-  display: none;
-  position: absolute;
-}
-@media screen and (min-width: 768px) {
-  .video_text {
-    display: block;
-    bottom: 90px;
-    right: 100px;
-  }
-}
-
-.video_mob {
-  display: block;
-  background-color: #000;
-  margin: 0 auto;
-  width: 330px;
-  height: 350px;
-}
-@media screen and (min-width: 768px) {
-  .video_mob {
-    display: none;
-  }
-}
-
-.video_deskt {
-  display: none;
-}
-@media screen and (min-width: 768px) {
-  .video_deskt {
-    display: block;
-    background-color: #000;
-    margin: 0 auto;
-    width: 770px;
-  }
 }/*# sourceMappingURL=main.css.map */

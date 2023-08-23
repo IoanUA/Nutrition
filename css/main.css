@@ -82,6 +82,8 @@ button {
 }
 
 .header {
+  width: 100%;
+  position: fixed;
   outline: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -110,7 +112,7 @@ button {
   display: flex;
   background-color: white;
 }
-.head_mob_btn:hover {
+.head_mob_btn:hover, .head_mob_btn:focus {
   fill: #047100;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -186,7 +188,7 @@ button {
 }
 
 .hero {
-  padding-top: 30px;
+  padding-top: 100px;
 }
 
 @media screen and (min-width: 768px) {
@@ -270,7 +272,13 @@ button {
 }
 
 .video_text {
+  display: none;
   position: absolute;
-  bottom: 90px;
-  right: 160px;
+}
+@media screen and (min-width: 768px) {
+  .video_text {
+    display: block;
+    bottom: 90px;
+    right: 100px;
+  }
 }/*# sourceMappingURL=main.css.map */

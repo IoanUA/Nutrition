@@ -4,9 +4,11 @@
 }
 
 .tab_posit{
-  display: block;
+
   @media screen and (min-width: 768px) {
     display: flex;
+      position: relative;
+  
     }
   }
 
@@ -33,15 +35,28 @@
 //                hero title
 // 
 
+.hero_info_box{
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+  }
+}
 .hero_title {
   margin-bottom: 30px;
   color: #000;
   text-align: center;
 
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 500;
   letter-spacing: -0.68px;
-}
+    @media screen and (min-width: 768px) {
+       margin-right: 10px;
+        text-align: start;
+      }
+    }
+
 .hero_text {
   margin-bottom: 10px;
   color: #000;
@@ -49,14 +64,30 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 140%;
-}
+  @media screen and (min-width: 768px) {
+      text-align: start;
+      font-size: 15px;
+    }
+  }
+
 .hero_list {
   margin-bottom: 60px;
+  
 }
 .hero_item {
   color: #000;
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 140%;
+  @media screen and (min-width: 768px) {
+    text-align: start;
+      font-size: 13px;
+    }
+}
+
+.video_text{
+  position: absolute;
+bottom: 90px;
+right: 160px;
 }

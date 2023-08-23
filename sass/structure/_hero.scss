@@ -3,6 +3,13 @@
   padding-top: 30px;
 }
 
+.tab_posit{
+  display: block;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    }
+  }
+
 //         hero photo
 
 .hero_photo_box {
@@ -15,7 +22,7 @@
   background-image: url(../../images/main_photo.jpeg);
   background-size: contain;
   background-repeat: no-repeat;
-  @media screen and(min-width: 768px) {
+  @media screen and (min-width: 768px) {
   margin: 0px;
   }
 }

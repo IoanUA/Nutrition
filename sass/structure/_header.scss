@@ -32,7 +32,10 @@
 //                       svg moile menu
 .head_mob_btn {
   display: flex;
-  background-color: white;
+  background-color: inherit;
+  @media screen and (min-width: 768px) {
+      display: none;
+    }
   &:hover,
   &:focus{
     fill: #047100;

@@ -197,7 +197,6 @@ button {
   padding-top: 400px;
   background-image: url(../../images/hero-img.jpg);
   background-size: cover;
-  height: 100vh;
 }
 @media screen and (min-width: 768px) {
   .hero {

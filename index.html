@@ -21,7 +21,8 @@
         <div class="header">
             <div class="container head_content">
                 <a class="logo" href="./index.html"> Юлия Ярош</a>
-                <button class="head_mob_btn"> 
+                <button class="head_mob_btn"
+                type="button"> 
                     <svg class="svg_mob_menu" width="45px" height="35px">
                         <use href="./images/icon.svg#icon-menu">
                         </use>
@@ -31,7 +32,7 @@
                         <a class="head_nav_link" href="">Обо мне</a>
                     </li>
                     <li class="head_nav_item">
-                        <a class="head_nav_link" href="">Программы и гайды</a>
+                        <a class="head_nav_link" href="#program">Программы и гайды</a>
                     </li>
                     <li class="head_nav_item">
                         <a class="head_nav_link" href="">Консультации</a>
@@ -65,6 +66,17 @@
                 </ul>
             </div>
         </div>
+        <div class="mobil_menu_box is-hidden" >
+            <button class="mob_menu_close"
+            type="button">
+                <svg width="33px" height="33px">
+                    <use href="./images/icon.svg#icon-close-black"></use>
+                </svg>
+            </button>
+           <a href="">Обо мне</a> 
+           <a href="">Программы и гайды</a>
+           <a href="">Консультации</a>
+        </div>
     </header>
     <main>
         <section class="hero">
@@ -76,7 +88,7 @@
         </section>
         <div class="container">
              <section class="program">
-                <h2 class="program_title"></h2>
+                <h2 class="program_title" id="program"></h2>
                 <a href="">
                 <div class="main_card_program">
                     <img class="program_photo" src="./images/photo_2023-08-23_21-19-02.jpg" alt="">

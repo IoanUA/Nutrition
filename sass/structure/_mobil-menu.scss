@@ -1,0 +1,24 @@
+//                          mobil_menu
+.mobil_menu_box{
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    
+    position: fixed;
+    
+    max-width: 360px;
+    height: 500px;
+    background-color: #ffffff;
+  }
+  
+  .mob_menu_close{
+    background-color: inherit;
+    align-items: center;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: 0;
+  
+  }

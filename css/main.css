@@ -230,8 +230,8 @@ button {
   flex-direction: column;
   padding: 15px;
   position: fixed;
-  max-width: 360px;
-  height: 500px;
+  width: 340px;
+  height: 100vh;
   background-color: #ffffff;
 }
 
@@ -245,6 +245,22 @@ button {
 .mob_menu_close:hover, .mob_menu_close:focus {
   fill: #047100;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob_menu_item + .mob_menu_item {
+  margin-top: 10px;
+}
+
+.mob_menu_link {
+  color: #818181;
+  font-size: 14px;
+  line-height: 25px; /* 178.571% */
+  text-transform: uppercase;
+}
+
+.mob_menu_social {
+  margin-top: auto;
+  margin-bottom: 0;
 }
 
 .program {

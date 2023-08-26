@@ -1,3 +1,27 @@
+
+
+
+//                       svg moile menu open
+.head_mob_btn {
+    display: flex;
+    background-color: inherit;
+    @media screen and (min-width: 768px) {
+        display: none;
+      }
+    &:hover,
+    &:focus{
+      fill: #047100;
+      transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1),
+        outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+  .svg_mob_menu {
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+
+
 //                          mobil_menu
 .mobil_menu_box{
     right: 0px;
@@ -16,9 +40,13 @@
     background-color: inherit;
     align-items: center;
     display: flex;
-    width: 40px;
-    height: 40px;
+    
     margin-left: auto;
     margin-right: 0;
-  
+    &:hover,
+    &:focus{
+      fill: #047100;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
   }

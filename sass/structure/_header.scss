@@ -79,7 +79,8 @@
   height: 30px;
   border-radius: 50%;
   display: flex;
-  background-color: rgb(22, 117, 1);
+  // background-color: rgb(22, 117, 1);
+  background-color: var(--green-color);
   align-items: center;
   justify-content: center;
   fill: rgb(255, 255, 255);

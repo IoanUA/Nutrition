@@ -9,7 +9,7 @@
 
 
 .foot_title{
-    color: #000;
+    color: var(--green-color);
 text-align: center;
 font-size: 34px;
 font-weight: 500;
@@ -42,17 +42,17 @@ margin-bottom: 40px;
     height: 30px;
     border-radius: 50%;
     display: flex;
-    background-color: rgb(22, 117, 1);
+    background-color: var(--green-color);
     align-items: center;
     justify-content: center;
-    fill: rgb(255, 255, 255);
+    fill: var(--white-color);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
     &:focus {
-      background-color: rgb(255, 255, 255);
-      fill: rgb(22, 117, 1);
-      border: 1px solid rgb(22, 117, 1);
+      background-color: var(--white-color);
+      fill: var(--hover-color);
+      border: 2px solid var(--hover-color);
     }
   }
   

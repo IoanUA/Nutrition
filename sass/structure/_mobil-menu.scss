@@ -10,7 +10,7 @@
       }
     &:hover,
     &:focus{
-      fill: #047100;
+      fill: var(--hover-color);
       transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
         outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
@@ -33,7 +33,7 @@
     
     width: 340px;
     height: 100vh;
-    background-color: #ffffff;
+    background-color: var(--white-color);
   }
   
   .mob_menu_close{
@@ -45,7 +45,7 @@
     margin-right: 0;
     &:hover,
     &:focus{
-      fill: #047100;
+      fill: var(--hover-color);
       transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
         outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
@@ -57,10 +57,8 @@ margin-top: 10px;
 
 
 .mob_menu_link{
-  color: #818181;
-
+  color:var(--grey-color);
 font-size: 14px;
-
 line-height: 25px; /* 178.571% */
 text-transform: uppercase;
 }

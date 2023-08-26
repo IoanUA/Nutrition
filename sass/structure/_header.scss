@@ -2,8 +2,8 @@
 .header {
   width: 100%;
   position: fixed;
-  outline: 1px solid rgba(0, 0, 0, 0.1);
-  background: #42424241;
+  outline: 1px solid var(--outline-header);
+  background: var(--background-color-header);
 }
 .head_content {
   padding-top: 20px;
@@ -18,7 +18,7 @@
 
 //                        logo
 .logo {
-  color: #047100;
+  color: var(--green-color);
   font-size: 15px;
   font-weight: 600;
   @media screen and (min-width: 768px) {
@@ -44,7 +44,7 @@
   }
 }
 .head_nav_link {
-  color: #424242;
+  color: var(--grey-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
   @media screen and (min-width: 768px) {
@@ -54,9 +54,9 @@
     line-height: 0.56; /* 178.571% */
     text-transform: uppercase;
     
-    &:hover {
-      color: #047100;
-      
+    &:hover,
+    &:focus {
+      color: var(--hover-color);
     }
   }
   @media screen and (min-width: 1200px) {
@@ -79,18 +79,18 @@
   height: 30px;
   border-radius: 50%;
   display: flex;
-  // background-color: rgb(22, 117, 1);
+
   background-color: var(--green-color);
   align-items: center;
   justify-content: center;
-  fill: rgb(255, 255, 255);
+  fill: var(--white-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
-    background-color: rgb(255, 255, 255);
-    fill: rgb(22, 117, 1);
-    border: 1px solid rgb(22, 117, 1);
+    background-color:var(--white-color);
+    fill:var(--hover-color);
+    border: 2px solid var(--hover-color);
   }
 }
 

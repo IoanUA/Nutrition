@@ -193,7 +193,7 @@ button {
 .hero {
   padding-top: 300px;
   padding-bottom: 50px;
-  background-image: url(../../images/hero_photo.avif);
+  background-image: url(../images/hero_photo.avif);
   background-position: 70% 0;
   background-repeat: no-repeat;
 }

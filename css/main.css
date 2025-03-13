@@ -90,7 +90,7 @@ button {
   --grey-color: #424242;
   --green-color: #1f2b13;
   --green-color2:#5d612e;
-  --hover-color: #d4903b;
+  --hover-color: #3c3b3a;
   --hover-color2: #a94803;
   --white-color: #ffff;
   --background-color-header: #42424241;
@@ -328,12 +328,17 @@ button {
 }
 
 .about_title {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   text-align: center;
   color: var(--black-color);
   font-size: 44px;
   font-weight: 500;
   line-height: normal;
+}
+@media screen and (min-width: 768px) {
+  .about_title {
+    margin-bottom: 70px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -343,14 +348,14 @@ button {
 }
 
 .about_photo {
-  width: 250px;
+  width: 500px;
   border-radius: 5px;
   box-shadow: 0px 5px 10px 0px var(--box-shadow-program);
-  margin: 0 auto 20px;
 }
 @media screen and (min-width: 768px) {
   .about_photo {
-    margin-right: 30px;
+    width: 500px;
+    margin-right: 50px;
   }
 }
 
@@ -386,6 +391,7 @@ button {
 }
 
 .about_content_text {
+  margin: 20px;
   color: var(--grey-color);
   text-align: end;
   font-size: 25px;
@@ -393,7 +399,7 @@ button {
 }
 
 .program {
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 .main_card_program {
